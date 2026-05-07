@@ -207,3 +207,60 @@ header hr {
     color: #FFFFFF;
     padding-top: 16px;
 }
+
+
+.property {
+    margin: 0 auto;
+    background-color: #230E3D;
+    padding: 120px 200px;
+}
+.property h2 {
+    margin: 0;
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+.property-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 30px;
+}
+.property-info {
+    border: none;
+    border-radius: 40px;
+    background-color: rgba(53, 17, 101, 0.4);
+}
+.card-1 {
+    grid-row: span 2;
+    padding: 107px 40px;
+}
+.card-2 {
+    grid-column: span 2;
+    padding: 40px;
+}
+.card-3 {
+    grid-column: span 2;
+    padding: 40px;
+}
+.card-4 {
+    grid-column: span 2;
+    padding: 40px;
+}
+.card-5 {
+    padding: 40px;
+}
+.property-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #FFFFFF;
+    padding: 16px 0;
+}
+.property-para {
+    font-size: 1rem;
+    line-height: 24px;
+    color: #FFFFFF;
+    opacity: 60%;
+}
