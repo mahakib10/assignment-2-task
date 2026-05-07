@@ -98,9 +98,13 @@ header hr {
     border: 1px solid black;
     border-radius: 1000px;
     box-shadow: 0 3px 27px 0 rgba(0, 255, 136, 0.5);
-    position: relative;
+    /* position: relative;
     left: 1030px;
+    top: 75px; */
+    margin: 0 auto;
+    position: relative;
     top: 75px;
+    left: 100px;
 }
 .head-content {
     text-align: center;
