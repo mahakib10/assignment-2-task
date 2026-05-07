@@ -1,7 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .inter-font {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
-  margin: 0;
 }
 
 /* --shared class-- */
@@ -15,6 +20,7 @@ header {
     margin: 0 auto;
     justify-content: space-around;
     align-items: center;
+    padding: 16px;
 }
 .techwave h2 {
     font-size: 3rem;
@@ -40,6 +46,7 @@ nav li a {
     font-weight: 400;
     line-height: 120%;
     color: #FFFFFF;
+    opacity: 80%;
 }
 .nav-but {
     justify-content: center;
@@ -82,6 +89,19 @@ header hr {
     align-items: center;
     z-index: 5;
 }
+.head-img .batch {
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: #1A0B2E;
+    padding: 8px 16px;
+    background-color: #00FF88;
+    border: 1px solid black;
+    border-radius: 1000px;
+    box-shadow: 0 3px 27px 0 rgba(0, 255, 136, 0.5);
+    position: relative;
+    left: 1030px;
+    top: 75px;
+}
 .head-content {
     text-align: center;
 }
@@ -95,12 +115,14 @@ header hr {
     font-size: 1rem;
     font-weight: 400;
     color: #FFFFFF;
-    opacity: 80%;
+    opacity: 60%;
     padding: 8px auto 24px;
 }
 .but-primary {
     justify-content: center;
     align-items: center;
+    gap: 8px;
+    padding-top: 24px;
 }
 .wave-but-1 {
     justify-content: center;
@@ -125,4 +147,63 @@ header hr {
     background: transparent;
     border-radius: 10000px;
     padding: 12px 20px;
+}
+
+
+.podcast {
+    background-color: #1A0B2E;
+}
+.podcast-content {
+    text-align: center;
+    padding-top: 50px;
+    margin-bottom: 80px;
+}
+.podcast-content h3 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+.pod-1 , .pod-2 {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 20px;
+    opacity: 60%;
+    color: #FFFFFF;
+}
+.pod-1 {
+    margin-bottom: 40px;
+}
+.podcast hr {
+    margin: 0 auto;
+    max-width: 1200px;
+    border: 1px solid #FFFFFF;
+    opacity: 10%;
+}
+.podcast-card {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 75%;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.card-info {
+    text-align: center;
+}
+.card-info h2 {
+    margin: 0;
+    font-size: 3rem;
+    font-weight: 900;
+    color: #00FF88;
+}
+.card-info p {
+    font-size: 1rem;
+    line-height: 20px;
+    opacity: 80%;
+    color: #FFFFFF;
+    padding-top: 16px;
 }
