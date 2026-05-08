@@ -369,3 +369,40 @@ header hr {
     justify-content: center;
     align-items: center;
 }
+
+
+footer {
+    background: url(../assets/footer-bg.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 120px;
+}
+footer h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    color: #FFFFFF;
+    padding-bottom: 32px;
+}
+.foot-title {
+    background: linear-gradient(360deg, #F7E93F 0%, #FB09B4 51%, #9100F8 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.foot-logos {
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 32px;
+}
+.foot-logo {
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+}
+footer p {
+    font-size: 1rem;
+    line-height: 24px;
+    opacity: 60%;
+    color: #FAFAFA;
+}
