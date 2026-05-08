@@ -98,9 +98,6 @@ header hr {
     border: 1px solid black;
     border-radius: 1000px;
     box-shadow: 0 3px 27px 0 rgba(0, 255, 136, 0.5);
-    /* position: relative;
-    left: 1030px;
-    top: 75px; */
     margin: 0 auto;
     position: relative;
     top: 75px;
@@ -267,4 +264,108 @@ header hr {
     line-height: 24px;
     color: #FFFFFF;
     opacity: 60%;
+}
+
+
+.episode {
+    padding: 120px 200px;
+    background-color: #1A0B2E;
+}
+.featured {
+    padding-bottom: 120px;
+}
+.featured h2 {
+    margin: 0;
+    padding-bottom: 40px;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+.featured-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin: 0 auto;
+    justify-items: center;
+    align-items: center;
+}
+.featured-info {
+    background-color: #250D44;
+    border: none;
+    border-radius: 20px;
+    width: 380px;
+    height: 440px;
+}
+.video {
+    border-radius: 20px 20px 0 0;
+}
+.info-content {
+    padding: 24px;
+}
+.info-content h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #FFFFFF;
+    padding-bottom: 12px;
+}
+.featured-para {
+    font-size: 1rem;
+    line-height: 24px;
+    opacity: 60%;
+    color: #FFFFFF;
+    padding-bottom: 12px;
+}
+.featured-foot {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 24px;
+    color: #00FF88;
+    align-items: center;
+    gap: 6px;
+}
+
+
+.host h2 {
+    margin: 0;
+    font-size: 3rem;
+    font-weight: 700;
+    color: #FFFFFF;
+    text-align: center;
+    padding-bottom: 40px;
+}
+.host-container {
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 30px;
+    background-color: #250D44;
+    padding: 40px;
+}
+.host-content h4 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #FFFFFF;
+    padding-bottom: 16px;
+}
+.host-content p {
+    font-size: 1rem;
+    line-height: 24px;
+    opacity: 60%;
+    color: #FFFFFF;
+    padding-bottom: 16px;
+}
+.logo {
+    gap: 8px;
+}
+.logo img {
+    padding: 10px;
+
+}
+.logo-1 {
+    border: 1px solid #533C72;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
 }
